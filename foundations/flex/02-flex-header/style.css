@@ -3,6 +3,7 @@
   background: papayawhip;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .logo {
@@ -35,4 +36,6 @@ a {
 
 .right-links {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
