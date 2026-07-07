@@ -2,7 +2,6 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -20,6 +19,7 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 
 a {
@@ -28,4 +28,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  flex: 1;
 }
