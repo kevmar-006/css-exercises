@@ -11,6 +11,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin: 32px;
 }
 
 .container {
@@ -22,7 +23,6 @@ img {
 .item {
   text-align: center;
   width: 200px;
-  margin: 32px;
 }
 /* do not edit this footer */
 .footer {
