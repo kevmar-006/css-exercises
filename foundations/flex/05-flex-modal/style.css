@@ -33,15 +33,11 @@ body {
 
 .header {
   display: flex;
+  font-weight: 700;
 }
 
 .close-button {
   margin-left: auto;
-}
-
-.title {
-  font-weight: 700;
-  
 }
 
 .icon {
