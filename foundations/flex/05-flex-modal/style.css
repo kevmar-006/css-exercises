@@ -39,6 +39,11 @@ body {
   margin-left: auto;
 }
 
+.title {
+  font-weight: 700;
+  
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -50,6 +55,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
