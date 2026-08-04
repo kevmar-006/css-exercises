@@ -34,18 +34,21 @@ input {
 }
 
 ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 8px;
 }
 
 ul a {
   text-decoration: none;
-  color: inherit;
+  color: #808080;
 }
 
 .left-links, .right-links {
   display: flex;
+  gap: 10px;
 }
 
 .left-links {
@@ -61,6 +64,7 @@ ul a {
 }
 
 .content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
